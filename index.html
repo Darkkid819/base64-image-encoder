@@ -4,10 +4,12 @@
     <title>Base64 Image Encoder</title>
 </head>
 <body>
-    <input type="file" id="file-input" />
-    <img id="image" alt="Your Image" />
-    <p>Link: <span id="link-output"></span></p>
-
+    <div id="upload-section">
+        <input type="file" id="file-input" />
+        <p>Link: <span id="link-output"></span></p>
+    </div>
+    <img id="image" alt="Your Image" style="display:none;" />
+    
     <script src="app.js"></script>
 </body>
 </html>
