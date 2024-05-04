@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;  /* Ensure the body takes full viewport height */
+    margin: 0;     /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+body {
+    flex-direction: column;  /* Aligns children vertically */
+    padding: 20px;
+}
+#upload-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;  /* You can adjust this width based on your preference */
+    max-width: 600px;  /* Limits the maximum width, keeping the element more manageable on larger screens */
+}
+input[type="file"] {
+    margin-top: 10px;
+}
+p {
+    margin-top: 20px;
+}
+#link-output {
+    display: inline-block;
+    padding: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin: auto;  /* This centers the image horizontally */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
